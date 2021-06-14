@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+body {
+    background: rgb(18, 18, 20);
+}
+
+.title {
+    position: absolute;
+    top: 5%;
+    left: 48%;
+    width: 550px;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+}
+
+.title p {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 400px;
+    height: 400px;
+    background: rgb(30, 30, 32);
+
+    border-radius: 10px;
+
+    flex-direction: column;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 10px; 
+    border-radius: 5px;
+    background-color: rgb(130, 87, 230);
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(118, 79, 207);
+}
+
+.form-check-label{
+    color: white;
+}
+
+.label {
+    color: rgb(130, 87, 230);
+    font-weight: bold;
+}
+
+input{
+    background-color: rgb(18, 18, 20);
+    color: rgb(130, 87, 230);
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    border: none;
+    margin-top: 10px;
+    transition:ease all .3s;
+    outline: none;
+    padding-left: 10px;
+}
+
+input:focus{
+    border: 2px solid rgb(130, 87, 230);
+    color: rgb(130, 87, 230);
+}
+
+input::placeholder {
+    transition: ease all .5s;
+}
+
+input:focus::placeholder{
+    color: rgb(130, 87, 230);
+    font-size: 14px;
+}
+
+
+
+.container svg {
+    position: absolute;
+    top: 10%;
+}
+
+.container button {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(130, 87, 230);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    outline: none;
+    
+}
+
+.container button:hover {
+    background-color: rgb(115, 78, 201);
+    cursor: pointer;
+
+}
+
+p {
+    color: rgb(130, 87, 230);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+
+    position: absolute;
+    top: 52%;
+    left: 13.5%;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.social-medias {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.social-medias a {
+    color: rgb(130, 87, 230);
+    text-decoration: none;
+}
