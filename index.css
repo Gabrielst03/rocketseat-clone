@@ -138,4 +138,5 @@ p {
 .social-medias a {
     color: rgb(130, 87, 230);
     text-decoration: none;
+    margin-left: 10px;
 }
