@@ -133,10 +133,10 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
+    margin-left: 10px;
 }
 
 .social-medias a {
     color: rgb(130, 87, 230);
     text-decoration: none;
-    margin-left: 10px;
 }
